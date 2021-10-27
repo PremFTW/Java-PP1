@@ -1,0 +1,62 @@
+/*
+* Class: CSCI1301-01 Introduction to Programming Principles <br />
+* Instructor: Dr. Lixin Li, Atia Sultana, and Mehakpreet Kaur <br />
+* Description: This is Homework 8 <br />
+* Due: 10/26/2021 @ 8:00 AM <br />
+* I pledge by honor that I have completed the programming assignment independently. <br />
+I have not copied the code from a student or any source. <br />
+I have not given my code to any student. <br />
+<br />
+Sign here: Prem Nag Reddy Somireddy <br />
+*/
+package homework;
+
+public class HW8 {
+
+	public static void main(String[] args) {
+		
+		int[] arr1 = inputArray(5); // Enter any input array size for testing
+		int[] arr2 = inputArray(5); // Enter the same input array size for testing
+		
+		//Prints the average of the elements in the first array.
+		System.out.println("The average of the first array provided is " +/*Please write your code here*/ ".");
+		
+		//Creates an array that holds the value of the sums from adding the two integer arrays.
+		int[] resultingArray = add(arr1, arr2);
+		
+		//Prints the array with the sum of the two added integer arrays.
+		displayArray(resultingArray);
+		
+}
+	
+		public static int[] inputArray(int size) {
+			
+			//Creates an array of size provided.
+			int[] inputArr = new int [size];
+			
+			//Asks user to input values for elements to be.
+			System.out.println("Enter " + size + " integer values to add to the array.");
+			
+			//Please write your code here
+			
+			return inputArr;
+}
+		
+		public static double average(int[] list) {
+			
+			//Please write your code here
+			return 0.0;
+}
+		
+		public static int[] add(int[] list1, int[] list2) {
+			
+			int[] arr = new int [0];
+			//Please write your code here
+			return arr;
+}
+		
+		public static void displayArray(int[] list) {
+		System.out.println("The sum resulting array is "/*Please write your code here*/);
+}
+		
+}

@@ -1,0 +1,44 @@
+/*
+* Class: CSCI1301-01 Introduction to Programming Principles <br />
+* Instructor: Dr. Lixin Li, Atia Sultana, and Mehakpreet Kaur <br />
+* Description: This is Lab 8 <br />
+* Due: 10/22/2021 @ 4:20 PM <br />
+* I pledge by honor that I have completed the programming assignment independently. <br />
+I have not copied the code from a student or any source. <br />
+I have not given my code to any student. <br />
+<br />
+Sign here: Prem Nag Reddy Somireddy <br />
+*/
+
+package homework;
+import java.util.Scanner;
+
+public class Lab8 {
+
+	public static void main(String[] args) {
+		
+		// Creating a new array using user input with the inputScores
+		//method
+		double[] scores = inputScores(?); // Enter any input array size
+		//for testing
+		// Displaying results
+		System.out.println("The number of scores above average is: " + highScoreCount(scores));
+		
+}
+		
+	public static double inputScores(int size) {
+		
+		// Please use only one scanner object
+		Scanner input = new Scanner(System.in);
+		System.out.print("Please enter " + size + " scores in the array you want to make: \n");
+		
+		//Please write your code here
+		return 0.0;
+}
+
+		public static int highScoreCount(double[] scores) {
+			
+			//Please write your code here
+			return 0;
+		}
+}
