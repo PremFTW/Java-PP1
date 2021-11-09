@@ -16,7 +16,7 @@ public class Cylinder {
 	// Declaring Variables
 	private double radius;
 	private double length;
-	public static int numberOfObjects = 0;
+	private static int numberOfObjects = 0;
 	
 	// Base Constructor
 	public Cylinder()
