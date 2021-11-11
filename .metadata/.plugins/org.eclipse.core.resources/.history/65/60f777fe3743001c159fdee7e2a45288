@@ -1,0 +1,29 @@
+package homework;
+import java.util.Scanner;
+
+public class Lab10 {
+
+	public static void main(String[] args) {
+        
+		Scanner input = new Scanner(System.in);
+		int count = 0;
+		int number, sum = 0;
+		do
+		{        
+			number = input.nextInt();
+			sum = sum + number;
+			++count;
+		}
+		while(number != 0);
+        // Displays number count.
+        System.out.println("You entered "  + count + " numbers");
+        // Displays the total.
+        System.out.println("The sum of these numbers is " + sum);
+    }
+}
+
+
+
+
+
+
