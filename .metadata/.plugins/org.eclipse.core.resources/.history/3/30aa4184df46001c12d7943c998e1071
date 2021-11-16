@@ -1,0 +1,43 @@
+package firstJavaPrograms;
+
+import java.util.Random;
+
+public class FinalReview1 {
+
+	public static void main(String[] args) {
+
+		int[] x = new int[100];
+		int[] counts = new int[100];
+		int count = 0;
+		int num;
+		
+		Random r = new Random();
+		
+		for(int i = 0; i < 100; i++)
+		{
+			num = r.nextInt(9);
+			x[i] = num;
+		}
+		
+		for(int i = 0; i < 100; i++)
+		{
+			if(x[i] == x[i + 1])
+			{
+				counts[count] = x[i];
+				count++;
+			}
+		}
+		
+		displayArray(counts);
+
+	}
+	
+	public static void displayArray(int[] array)
+	{
+		for(int i = 0; i < 100; i++)
+		{
+			System.out.println(array[i]);
+		}
+	}
+
+}
