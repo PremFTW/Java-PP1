@@ -1,5 +1,6 @@
 package firstJavaPrograms;
 
+import javax.swing.JOptionPane;
 import java.util.Random;
 
 public class FinalReview1 {
@@ -30,7 +31,6 @@ public class FinalReview1 {
 	
 	public static int[] countDigits(int[] array)
 	{
-		int count = 0;
 		int[] x = new int[10];
 
 		for(int i = 0; i < array.length; i++)

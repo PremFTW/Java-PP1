@@ -18,6 +18,7 @@ public class Lab10 {
 		// Declaring the variables I need
 		int count = 0, number, sum = 0;
 		
+		
 		// Making sure the for loop only runs for the amount of commands		
 		for (int i = 0; i < args.length ; i++) {
 			// Convert the string to int

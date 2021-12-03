@@ -17,11 +17,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
-import brandon.math.Math;
-import brandon.math.Random;
+//import brandon.math.Math;
+//import brandon.math.Random;
 
 // Declaring this to use random numbers
-import java.util.Random;
+//import java.util.Random;
 
 public class HW10 {
 

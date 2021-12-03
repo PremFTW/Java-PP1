@@ -12,8 +12,6 @@ public class FinalReview1 {
 		k = JOptionPane.showInputDialog("Enter something");
 		
 		System.out.print(k);
-		
-		
 	}
 
 }
